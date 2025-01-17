@@ -1,0 +1,23 @@
+name: flutter_ui
+description: A new Flutter project.
+publish_to: 'none' # Prevents publishing to pub.dev
+version: 0.1.0+1 # Include a build number
+
+environment:
+  sdk: ">=3.6.0 <4.0.0" # Specify the Dart SDK version range
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Ensure this block is outside of the 'flutter' dependency
+  # Flutter does not support assets within the `flutter` key
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/front_Page.png
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0 # Adjusted version for Flutter Lints
