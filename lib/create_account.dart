@@ -101,7 +101,7 @@ class _CreateAccountState extends State<CreateAccount> {
               height: 70,
               width: 330,
               child: TextField(
-                obscureText: passwordSeeing,
+                obscureText: confirmPasswordSeeing,
                 decoration: InputDecoration(
                   suffixIcon: IconButton(
                       onPressed: () {
